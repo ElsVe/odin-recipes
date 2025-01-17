@@ -1,0 +1,51 @@
+* {
+    font-family: 'Tahoma', 'Helvetica', 'Arial', sans-serif;
+    font-size: 15px;
+}
+
+body {
+    background-color: floralwhite;
+}
+
+body.main {
+    background-color: mistyrose;
+}
+
+img {
+    height: 500px;
+    width: auto;
+}
+
+h1, h2, h3 {
+    color: royalblue;
+}
+
+h1 {
+    background-color: pink;
+    font-size: 50px;
+    text-indent: 2%;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+a {
+    background-color: mistyrose;
+    color: black;
+    text-decoration: none;
+    font-style:italic;
+}
+
+.main a {
+    background-color: pink;
+    font-size: 20px;
+}
+
+.main-dish {
+    font-weight: 900;
+}
+
+.vegetarian {
+    color: olive;
+}
