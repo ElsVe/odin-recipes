@@ -7,15 +7,6 @@ body {
     background-color: floralwhite;
 }
 
-body.main {
-    background-color: mistyrose;
-}
-
-img {
-    height: 500px;
-    width: auto;
-}
-
 h1, h2, h3 {
     color: royalblue;
 }
@@ -37,15 +28,67 @@ a {
     font-style:italic;
 }
 
-.main a {
-    background-color: pink;
-    font-size: 20px;
-}
-
 .main-dish {
     font-weight: 900;
 }
 
 .vegetarian {
     color: olive;
+}
+
+/* specifically for the index page */
+
+body.main {
+    background-color: mistyrose;
+}
+
+.main a {
+    background-color: pink;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.index-box {
+    margin: 40px 0;
+}
+
+.index-box div{
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px 10px 20px 0;
+}
+
+#index-list {
+    width: 600px;
+    height: 600px;
+    border-right: dotted 2px pink;
+    background-color: rgba(255,195,203,20%);
+
+}
+
+#legend {
+}
+
+
+/* specifically for the recipe pages */
+
+img {
+    height: 500px;
+    width: auto;
+}
+
+.description {
+    height: 400px;
+    width: 300px;
+    display: inline-block;
+    margin: 40px 0 0 -80px;
+    padding: 10px;
+    background-color: rgba(255,255,255,0.8);
+    vertical-align: top;
+}
+
+.description p,
+.description a {
+    font-size: 12px;
+    color: royalblue;
 }
